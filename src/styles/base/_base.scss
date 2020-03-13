@@ -1,0 +1,23 @@
+// rem realted to pixles.
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $m-size;
+    background-color: darken($color: #7712f7, $amount: 10);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
